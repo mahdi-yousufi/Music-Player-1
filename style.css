@@ -136,7 +136,15 @@ h3 {
 
 
 @media screen and (max-width:346px) {
-    .img-container img {
-        width: 83%;
+    .img-container {
+        height: 260px;
+        width: 250px;
+    }
+
+    .player-container {
+        height: 490px;
+    }
+    .player-controls{
+        left: 85px;
     }
 }
