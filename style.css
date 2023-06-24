@@ -144,7 +144,38 @@ h3 {
     .player-container {
         height: 490px;
     }
-    .player-controls{
+
+    .player-controls {
         left: 85px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .img-container {
+        width: 210px;
+        height: 230px;
+    }
+
+    .player-container {
+        height: 455px;
+    }
+
+    .player-controls {
+        left: 55px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .img-container {
+        width: 235px;
+        height: 250px;
+    }
+
+    .player-container {
+        height: 465px;
+    }
+
+    .player-controls {
+        left: 65px;
     }
 }
