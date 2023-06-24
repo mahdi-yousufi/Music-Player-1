@@ -133,3 +133,10 @@ h3 {
         left: 100px;
     }
 }
+
+
+@media screen and (max-width:346px) {
+    .img-container img {
+        width: 83%;
+    }
+}
