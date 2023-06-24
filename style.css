@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "font";
+    src: url("Bahij/Bahij\ Helvetica\ Neue-Bold_0.ttf");
+}
+
+
 html {
     box-sizing: border-box;
 }
@@ -9,11 +15,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "font";
     font-size: 12px;
 }
 
 .player-container {
-    height: 500px;
+    height: 510px;
     width: 400px;
     background: #e7e7e7;
     border-radius: 20px;
